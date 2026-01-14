@@ -1,73 +1,110 @@
-# React + TypeScript + Vite
+# 💼 Mi Portafolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal desarrollado con React, TypeScript y Tailwind CSS. Presenta mis habilidades, proyectos y experiencia como desarrollador full-stack.
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌐 **Multiidioma**: Soporte para español e inglés
+- 🌓 **Modo Oscuro/Claro**: Tema adaptable según preferencias del usuario
+- 📱 **Responsive Design**: Optimizado para dispositivos móviles, tablets y desktop
+- ⚡ **Animaciones Suaves**: Carrusel infinito de tecnologías con transiciones fluidas
+- 🎨 **UI Moderna**: Diseño limpio y profesional con Tailwind CSS
+- ⌨️ **Efecto de Escritura**: Animación de texto tipo máquina de escribir
+- 🎯 **Navegación Fluida**: Experiencia de usuario intuitiva
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework**: React 19.2.0
+- **Lenguaje**: TypeScript
+- **Estilos**: Tailwind CSS 4.1
+- **Iconos**: React Icons
+- **Build Tool**: Vite 7.2
+- **Linting**: ESLint
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Instalación y Uso
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerrequisitos
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Node.js (v18 o superior)
+- npm o yarn
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/tu-usuario/mi-portafolio.git
+cd mi-portafolio
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Instala las dependencias:
+```bash
+npm install
 ```
+
+3. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
+
+4. Abre tu navegador en `http://localhost:5173`
+
+## 📜 Scripts Disponibles
+
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Compila el proyecto para producción
+- `npm run preview` - Previsualiza la build de producción
+- `npm run lint` - Ejecuta el linter para verificar el código
+
+## 📂 Estructura del Proyecto
+
+```
+mi-portafolio/
+├── src/
+│   ├── components/
+│   │   ├── AboutMe.tsx       # Sección sobre mí con animación
+│   │   ├── Contact.tsx       # Información de contacto
+│   │   ├── LanguageContext.tsx # Contexto de idioma
+│   │   ├── Navbar.tsx        # Barra de navegación
+│   │   ├── Projects.tsx      # Sección de proyectos
+│   │   └── Skills.tsx        # Carrusel de habilidades técnicas
+│   ├── pages/
+│   │   └── Home.tsx          # Página principal
+│   ├── App.tsx               # Componente principal
+│   ├── main.tsx              # Punto de entrada
+│   └── index.css             # Estilos globales y animaciones
+├── public/                    # Archivos estáticos
+└── package.json              # Dependencias y scripts
+```
+
+## 🎨 Características Técnicas
+
+### Carrusel Infinito
+Implementación de un carrusel de tecnologías con:
+- Animación CSS personalizada
+- Velocidad adaptativa según dispositivo
+- Transición suave sin saltos
+- Optimización de rendimiento con `will-change`
+
+### Sistema de Idiomas
+Context API para cambio de idioma en tiempo real sin recargar la página.
+
+### Modo Oscuro
+Implementación con Tailwind CSS utilizando la variante `dark:` para una experiencia visual óptima.
+
+## 📱 Responsive Design
+
+El portafolio está optimizado para:
+- 📱 Móviles (320px - 767px)
+- 📱 Tablets (768px - 1023px)
+- 💻 Desktop (1024px+)
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
