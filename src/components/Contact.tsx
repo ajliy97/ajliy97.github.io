@@ -18,7 +18,7 @@ function Contact() {
                             
                             <div>
                                 <a
-                                    href="mailto:ajliy97@email.com"
+                                    href="mailto:ajliy97@gmail.com"
                                     className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors whitespace-nowrap"
                                 >
                                     <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
