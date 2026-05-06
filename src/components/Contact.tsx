@@ -70,7 +70,7 @@ function Contact() {
                         </a>
 
                         <a
-                            href="mailto:ajliy97@email.com"
+                            href="mailto:ajliy97@gmail.com"
                             className="flex items-center gap-3 px-4 py-2 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-full transition-all duration-300 group"
                         >
                             <div className="w-8 h-8 flex items-center justify-center bg-blue-600 text-white rounded-full shadow-sm group-hover:scale-110 transition-transform duration-300">
