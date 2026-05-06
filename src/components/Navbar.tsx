@@ -43,14 +43,14 @@ function Navbar() {
             <div className="flex items-center gap-4">
                 {darkMode ? (
                         <img 
-                            src="/portafolio icon-white.png" 
+                            src="/mi-portafolio/portafolio icon-white.png" 
                             alt="Portafolio Icon" 
                             className="w-9 h-9 md:w-12 md:h-12"
                             onClick={()=> window.location.href = '/'}
                         />
                 ) : (
                     <img 
-                            src="/portafolio icon-black.png" 
+                            src="/mi-portafolio/portafolio icon-black.png" 
                             alt="Portafolio Icon" 
                             className="w-9 h-9 md:w-12 md:h-12"
                             onClick={()=> window.location.href = '/'}
