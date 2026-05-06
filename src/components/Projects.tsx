@@ -119,7 +119,7 @@ function Projects() {
                 en: 'Website for a shipping agency, showcasing its logistics services, shipment tracking, and promotions.'
             },
             tools: ['React', 'TypeScript', 'Tailwind CSS'],
-            images: ['/mi-portafolio/LHSPA1.png', '/mi-portafolio/LHSPA2.png', '/mi-portafolio/LHSPA3.png'],
+            images: ['/LHSPA1.png', '/LHSPA2.png', '/LHSPA3.png'],
             hoverType: 'image'
         },
         {
@@ -130,7 +130,7 @@ function Projects() {
                 en: 'Simulation of a business project that uses AI (Gemini) to transform meteorological data into automatic preventive alerts.'
             },
             tools: ['React', 'JavaScript', 'Python', 'FastApi'],
-            images: ['/mi-portafolio/SM1.png', '/mi-portafolio/SM2.png'],
+            images: ['/SM1.png', '/SM2.png'],
             hoverType: 'image'
         },
         {
