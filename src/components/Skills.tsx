@@ -15,8 +15,8 @@ import {
     SiTailwindcss,
     SiMysql,
     SiHtml5,
-    SiCss3
 } from 'react-icons/si';
+import { FaCss3Alt } from "react-icons/fa6";
 import { FaJava } from 'react-icons/fa';
 
 function Skills() {
@@ -34,7 +34,7 @@ function Skills() {
         { name: 'Bootstrap', icon: SiBootstrap, color: 'text-purple-600 dark:text-purple-400' },
         { name: 'Node.js', icon: SiNodedotjs, color: 'text-green-600 dark:text-green-400' },
         { name: 'JavaScript', icon: SiJavascript, color: 'text-yellow-600 dark:text-yellow-300' },
-        { name: 'CSS3', icon: SiCss3, color: 'text-blue-600 dark:text-blue-400' },
+        { name: 'CSS3', icon: FaCss3Alt, color: 'text-blue-600 dark:text-blue-400' },
         { name: 'mysql', icon: SiMysql, color: 'text-blue-700 dark:text-blue-300' },
         { name: 'Git', icon: SiGit, color: 'text-orange-600 dark:text-orange-400' },
         { name: 'Java', icon: FaJava, color: 'text-red-600 dark:text-red-400' },
