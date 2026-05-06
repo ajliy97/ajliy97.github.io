@@ -1,14 +1,14 @@
 {
   "name": "mi-portafolio",
-  "homepage": "https://ajliy97.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist -b deploy"
   },
   "dependencies": {
     "react": "^19.2.0",
