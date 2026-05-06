@@ -26,7 +26,7 @@ function Contact() {
                         {/* Redes Sociales */}
                         <div className="flex gap-5">
                             <a href="https://github.com/ajliy97" target="_blank" rel="noopener noreferrer"
-                                className="p-3 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 rounded-xl
+                                className="p-3 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-blue-500 rounded-xl
                                     transition-all duration-300 hover:scale-110 shadow-sm"
                                 aria-label="GitHub">
                                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -38,7 +38,7 @@ function Contact() {
                                 </svg>
                             </a>
                             <a href="https://www.linkedin.com/in/adrian-portelles-liy/" target="_blank" rel="noopener noreferrer"
-                                className="p-3 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 rounded-xl
+                                className="p-3 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-blue-500 rounded-xl
                                     transition-all duration-300 hover:scale-110 shadow-sm"
                                 aria-label="LinkedIn">
                                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
