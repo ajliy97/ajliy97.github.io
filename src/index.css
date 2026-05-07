@@ -13,7 +13,7 @@
 }
 /* Velocidad de desplazamiento móvil */
 .animate-scroll {
-  animation: scroll 10s linear infinite;
+  animation: scroll 14s linear infinite;
 }
 
 /* Pausar al posicionar encima*/ 
@@ -24,13 +24,13 @@
 /* Velocidad vista Tablet*/
 @media (min-width: 768px) {  
   .animate-scroll {
-    animation: scroll 10s linear infinite;  
+    animation: scroll 14s linear infinite;  
   }
 }
 
 /* Velocidad vista Desktop*/
 @media (min-width: 1024px) {
   .animate-scroll {
-    animation: scroll 10s linear infinite;
+    animation: scroll 12s linear infinite;
   }
 }

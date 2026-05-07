@@ -8,7 +8,7 @@ function Home() {
     return (
         <>
             <Navbar />
-            <div className="pt-24 md:pt-32 px-6 md:px-36">
+            <div className="pt-24 md:pt-32 px-4 md:px-8">
                 <AboutMe />
                 <Skills />
                 <Projects />
