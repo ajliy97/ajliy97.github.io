@@ -157,7 +157,7 @@ function Projects() {
     ];
 
     return (
-        <section className="w-full max-w-6xl mx-auto py-6">
+        <section className="w-full max-w-6xl mx-auto py-12">
             <div className="text-center">
                 <h2 className="text-3xl font-mono text-gray-900 dark:text-white md:mb-12 mb-10 text-center">
                     {t({ es: 'Proyectos', en: 'Projects' })}

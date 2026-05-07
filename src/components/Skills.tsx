@@ -40,7 +40,7 @@ function Skills() {
 
     return (
         <section className="w-full overflow-hidden">
-            <h2 className="md:text-2xl text-lg font-mono text-cyan-500 dark:text-blue-400 mb-2 text-left md:pl-12 pl-2 mt-2">
+            <h2 className="md:text-2xl text-lg font-mono text-cyan-500 dark:text-blue-400 mb-2 text-left md:pl-12 pl-2 mt-8">
                 {t({ es: 'Tecnologías', en: 'Tech Stack' })}
             </h2>
 
