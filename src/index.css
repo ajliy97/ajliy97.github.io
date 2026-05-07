@@ -34,3 +34,7 @@
     animation: scroll 12s linear infinite;
   }
 }
+
+.about-head {
+  font-family: "Roboto", sans-serif;
+}

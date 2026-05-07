@@ -29,7 +29,8 @@ function ProjectCard({ project, t }: { project: any, t: any }) {
             className="block"
         >
             <div
-                className={`group relative bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm transition-all duration-500 overflow-hidden border border-gray-100 
+                id="projects"
+                className={`scroll-mt-24 group relative bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm transition-all duration-500 overflow-hidden border border-gray-100 
                 dark:border-gray-700 flex flex-col justify-center ${
                     hasImage
                         ? 'hover:shadow-2xl hover:scale-[1.02] h-48 hover:h-72'

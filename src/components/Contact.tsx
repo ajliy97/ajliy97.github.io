@@ -4,7 +4,7 @@ function Contact() {
     const { t } = useLanguage();                                                                                                                                          
                                                                                                                                                                         
     return (                                                                                                                                                              
-        <footer className="w-full bg-white dark:bg-gray-900 transition-colors duration-300 md:mt-16 mt-6">
+        <footer id="contact" className="w-full bg-white dark:bg-gray-900 transition-colors duration-300 md:mt-16 mt-6">
 
             <div className="md:mt-14 mt-12 pt-8 mx-auto w-3/5 border-t-0 dark:border-t-[1.5px] border-dashed border-gray-600 text-center text-sm dark:text-gray-200"></div>
                                                                             
