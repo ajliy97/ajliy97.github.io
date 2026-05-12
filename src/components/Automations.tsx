@@ -41,7 +41,7 @@ function AutomationCard({ automation, t }: { automation: any, t: any }) {
                 </h3>
             </div>
 
-            <div className="relative w-full overflow-hidden bg-black flex items-center justify-center" style={{ aspectRatio: '0 / 9' }}>
+            <div className="relative w-full overflow-hidden bg-white dark:bg-black flex items-center justify-center" style={{ aspectRatio: 'auto' }}>
                 <video
                     key={videoSrc} // Importante: la key fuerza al video a recargarse cuando cambia el src
                     src={videoSrc}
@@ -49,7 +49,7 @@ function AutomationCard({ automation, t }: { automation: any, t: any }) {
                     muted
                     loop
                     playsInline
-                    className="w-full h-full object-cover transition-transform duration-500"
+                    className="w-full h-auto block transition-transform duration-500"
                 />
             </div>
 
