@@ -8,7 +8,7 @@ function ExperienceCard({ experience, t, index }: { experience: any, t: any, ind
     const isEven = index % 2 === 0;
 
     return (
-        <div id="experience" className="relative pb-16 group scroll-mt-24">
+        <div id="experience" className="scroll-mt-54 relative pb-16 group">
             {/* Línea vertical - solo móvil */}
             <div className="absolute left-5 top-0 h-full w-0.5 bg-gray-200 dark:bg-gray-700 sm:hidden"></div>
 

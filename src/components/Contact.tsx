@@ -23,7 +23,7 @@ function Contact() {
             {/* Divisor superior */}
             <div className="mx-auto w-3/5 border-t dark:border-t border-dashed border-gray-200 dark:border-gray-700 dark:block hidden" />
 
-            <div className="max-w-2xl mx-auto py-16 px-6">
+            <div className="max-w-2xl mx-auto py-8 pt-16 px-6">
 
                 {/* Encabezado */}
                 <div className="mb-10 text-center">
@@ -35,8 +35,8 @@ function Contact() {
                     </h2>
                     <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 max-w-sm mx-auto leading-relaxed">
                         {t({
-                            es: 'Abierto a nuevas oportunidades. Escríbeme y te respondo pronto.',
-                            en: 'Open to new opportunities. Send me a message and I\'ll get back to you soon.'
+                            es: 'Cuéntame cuál es el reto y nos ponemos en marcha. ¡Espero tu mensaje!',
+                            en: 'Tell me about the challenge and we\'ll get started. I look forward to hearing from you!'
                         })}
                     </p>
                 </div>

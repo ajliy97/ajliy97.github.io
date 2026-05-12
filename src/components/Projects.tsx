@@ -38,7 +38,7 @@ function ProjectCard({ project, t }: { project: Project, t: any }) {
     return (
         <div
             id="projects"
-            className={`scroll-mt-24 group relative bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm transition-all duration-500 overflow-hidden border border-gray-100 
+            className={`scroll-mt-50 group relative bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm transition-all duration-500 overflow-hidden border border-gray-100 
                 dark:border-gray-700 flex flex-col justify-center ${hasImage
                     ? 'hover:shadow-2xl hover:scale-[1.02] h-48 hover:h-72'
                     : 'h-46'
@@ -87,11 +87,11 @@ function ProjectCard({ project, t }: { project: Project, t: any }) {
                         </h3>
                         <div className="flex gap-3 transition-all duration-300 text-gray-600 dark:text-gray-400">
                             {project.link && (
-                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-600 dark:hover:text-blue-500 transition-colors">
+                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 dark:hover:text-blue-500 transition-colors">
                                     <BiLinkExternal size={20} />
                                 </a>
                             )}
-                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-600 dark:hover:text-blue-500 transition-colors">
+                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 dark:hover:text-blue-500 transition-colors">
                                 <SiGithub size={20} />
                             </a>
                         </div>
