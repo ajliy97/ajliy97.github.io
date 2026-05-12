@@ -3,7 +3,7 @@ import {
     SiPython, SiAngular, SiPostgresql, SiReact, SiTypescript,
     SiNodedotjs, SiJavascript, SiGit, SiMongodb, SiPostman,
     SiSpringboot, SiBootstrap, SiTailwindcss, SiMysql,
-    SiHtml5, SiAuthentik, SiFirebase, SiDocker
+    SiHtml5, SiAuthentik, SiFirebase, SiDocker, SiN8N 
 } from 'react-icons/si';
 import { FaCss3Alt } from "react-icons/fa6";
 import { FaJava } from 'react-icons/fa';
@@ -31,6 +31,7 @@ function Skills() {
         { name: 'mysql', icon: SiMysql, color: 'text-blue-700 dark:text-blue-300', bgColor: 'bg-blue-200 dark:bg-blue-900/20' },
         { name: 'MongoDB', icon: SiMongodb, color: 'text-green-700 dark:text-green-400', bgColor: 'bg-green-200 dark:bg-green-900/20' },
         //Herramientas y DEVOPS
+        { name: 'n8n', icon: SiN8N, color: 'text-red-600 dark:text-red-400', bgColor: 'bg-red-200 dark:bg-red-900/20' },
         { name: 'Firebase', icon: SiFirebase, color: 'text-yellow-600 dark:text-yellow-400', bgColor: 'bg-yellow-200 dark:bg-yellow-900/20' },
         { name: 'Git', icon: SiGit, color: 'text-orange-600 dark:text-orange-400', bgColor: 'bg-orange-200 dark:bg-orange-900/20' },
         { name: 'Docker', icon: SiDocker, color: 'text-blue-600 dark:text-blue-400', bgColor: 'bg-blue-200 dark:bg-blue-900/20' },
